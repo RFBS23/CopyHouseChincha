@@ -32,7 +32,7 @@
 }
 
 .nav-scroller {
-    position: relative;
+    position: absolute;
     z-index: 2;
     height: 2.75rem;
     overflow-y: hidden;
@@ -49,13 +49,14 @@
     -webkit-overflow-scrolling: touch;
 }
 
+/*inicio de todo la pagina*/
 .micontenedor{
-    width: 98%;
+    width: 94%;
     margin: 0 auto;
 }
 
 .copyrit{
-    text-align: justify;
+    text-align: center;
     font-family: 'Rubik Bubbles', cursive;
 }
 
@@ -67,9 +68,39 @@
     font-family: 'Rubik Bubbles', cursive;
 }
 
+/*imagen 1*/
+.imagenlogo{
+    display: none;
+}
+
+/*imagen 3*/
+.imagenlogocard{
+    display: none;
+}
+
+.navegador{
+    display: none;
+}
+
+.wsp{
+    position: fixed;
+    width: 60px;
+    height:60px;
+    bottom: 50px;
+    right: 10px;
+    background-color: #25d366;
+    color:#FFF;
+    border-radius: 50px;
+    text-align:center;
+    font-size: 34px;
+}
+
 /*responsive*/
-@media screen and (max-width:800px ) {
-    
+@media screen and (max-width:800px) {
+    .menu-navegacion{
+        width: 50vw;
+    }
+
 	div .micontenedor{
 		width:80% 24;
 		height:100%;
@@ -89,29 +120,41 @@
     .scroller{
         display: none;
     }
-    
-/*
-	.menu_bar {
-		display:block;
-		width:100%;
-		background:#ccc;
-	}
 
-	.menu_bar .bt-menu {
-		display:block;
-		padding:20px;
-		background:#024959;
-		color:#fff;
-		text-decoration:none;
-		font-weight: bold;
-		font-size:25px;
-		-webkit-box-sizing:border-box;
-		-moz-box-sizing:border-box;
-		box-sizing:border-box;
-	}
+    .img{
+        max-width: 100%;
+        width: 400px;
+    }
 
-	.menu_bar span {
-		float:right;
-		font-size:40px;
-	}*/
+    .navbar{
+        cursor: pointer;
+        position: fixed;
+    }
+
+    .imagenlogo{
+        display: inline-block;
+        width: 150px;
+    }
+    /*imagen 2*/
+    .imagenlogocentro{
+        display: none;
+    }
+
+    .imagenlogocard{
+        display: inline-block;
+        width: 150px;
+    }
+
+    .links{
+        text-align: center;
+    }
+
+    .navegador{
+        display: inline-block;
+    }
+
+    .titulo{
+        display: none;
+    }
+
 }

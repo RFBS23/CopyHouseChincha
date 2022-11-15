@@ -1,23 +1,10 @@
-$(document).ready(main);
+//NAVEGADOR
+//abrir
+function openNav(){
+	document.getElementById("navmenu").style.width = "100%";
+}
 
-var contador = 1;
-
-function main(){
-	$('.menu_bar').click(function(){
-		// $('nav').toggle(); 
-
-		if(contador == 1){
-			$('nav').animate({
-				left: '0'
-			});
-			contador = 0;
-		} else {
-			contador = 1;
-			$('nav').animate({
-				left: '-100%'
-			});
-		}
-
-	});
-
-};
+//cerrar
+function closeNav(){
+	document.getElementById("navmenu").style.width = "0%";
+}
