@@ -14,37 +14,36 @@
 
   </head>
   <body>
-    <div class="micontenedor">
+    <div class="micontenedor py-3">
       <!--Servicios-->
-      <header class="p-2">
+      <header>
+        <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+          <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+            <a class="navegador3 me-3 py-2 text-dark text-decoration-none fw-semibold" href="Nosotros.html">Nosotros &nbsp;|</a>
+            <a class="navegador3 me-3 py-2 text-dark text-decoration-none fw-semibold" href="trabajanosotros.html">Trabaja Con Nosotros &nbsp;|</a>
+            <a class="navegador3 me-3 py-2 text-dark text-decoration-none fw-semibold" href="tipopago.html">Tipo De Pago</a>
+          </nav>
+        </div>
+      
         <nav class="navbar">
           <div class="container-fluid">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="Nosotros.html">Nosotros</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="trabajanosotros.html">Trabaja Con Nosotros</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="tipopago.html">Tipo Pago</a>
-              </li>
-            </ul>
             <!--LOGO 1-->
             <img src="img/logoCopy.jpg" alt="logo" class="imagenlogo navbar-brand">
+            
             <button class="navegador navbar-toggler col-md-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
               <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="links offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
               <div class="offcanvas-header">
                 <h5 class="offcanvas-title" id="offcanvasNavbarLabel">INICIO</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
               </div>
               <div class="offcanvas-body">
-                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <!--LINKS-->
+                <ul class="links navbar-nav justify-content-end flex-grow-1 pe-3">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" id="nosotros">Nosotros</a>
+                    <a class="nav-link active" aria-current="page" href="Nosotros.html">Nosotros</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link active" href="trabajanosotros.html">Trabaja Con Nosotros</a>
@@ -116,11 +115,19 @@
             <p style="text-align: justify;" class="md-5">Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
           </div>
         </div>
-        
+      </div>
+
+      <div class="row">
+        <div class="col-md-2 flex-md-row mb-4">
+          <div class="h-90 p-4 bg-light border rounded-3">
+            <h2>Change</h2>
+            <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
+          </div>
+        </div>
       </div>
       <!--Fin Servicios-->
 
-      <footer class="py-3 my-4">
+      <footer class=" my-4">
         <ul class="nav justify-content-center">
           <li class="redsocial nav-item"><a href="#" class="nav-link px-2 " style="color: black; text-decoration: none;">Correo Electronico</a></li>
           <li class="redsocial nav-item"><a href="#" class="nav-link px-2 " style="color: black; text-decoration: none;">Facebook</a></li>

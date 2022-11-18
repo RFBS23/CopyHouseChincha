@@ -135,6 +135,7 @@
         display: inline-block;
         width: 150px;
     }
+
     /*imagen 2*/
     .imagenlogocentro{
         display: none;
@@ -148,12 +149,16 @@
     .links{
         text-align: center;
     }
-
+    
     .navegador{
         display: inline-block;
     }
 
     .titulo{
+        display: none;
+    }
+
+    .navegador3{
         display: none;
     }
 
