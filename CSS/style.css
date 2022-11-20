@@ -55,16 +55,12 @@
     margin: 0 auto;
 }
 
-.copyrit{
+.foter{
     text-align: center;
-    font-family: 'Rubik Bubbles', cursive;
+    font-family: 'Sono', sans-serif;
 }
 
 .letras{
-    font-family: 'Rubik Bubbles', cursive;
-}
-
-.redsocial{
     font-family: 'Rubik Bubbles', cursive;
 }
 
@@ -95,6 +91,23 @@
     font-size: 34px;
 }
 
+.navegador3{
+    display: inline-block;
+}
+
+.correo{
+    color: #3366FF;
+}
+
+.todocard{
+    text-align: justify;
+}
+
+.modalescard{
+    text-align: justify;
+}
+
+
 /*responsive*/
 @media screen and (max-width:800px) {
     .menu-navegacion{
@@ -113,8 +126,9 @@
 		display: none;
 	}
     
-    .copyrit{
+    .foter{
         text-align: center;
+        font-family: 'Sono', sans-serif;
     }
 
     .scroller{

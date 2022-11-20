@@ -71,6 +71,10 @@
     display: inline-block;
 }
 
+.foter{
+    text-align: center;
+    font-family: 'Sono', sans-serif;
+}
 
 
 /*responsivo*/
@@ -82,5 +86,14 @@
 
     .logonav{
         display: inline-block;
+    }
+
+    .links{
+        text-align: center;
+    }
+
+    .foter{
+        text-align: center;
+        font-family: 'Sono', sans-serif;
     }
 }

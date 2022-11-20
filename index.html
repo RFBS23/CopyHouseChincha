@@ -17,39 +17,35 @@
     <div class="micontenedor py-3">
       <!--Servicios-->
       <header>
-        <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+        <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom"> 
           <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
-            <a class="navegador3 me-3 py-2 text-dark text-decoration-none fw-semibold" href="Nosotros.html">Nosotros &nbsp;|</a>
-            <a class="navegador3 me-3 py-2 text-dark text-decoration-none fw-semibold" href="trabajanosotros.html">Trabaja Con Nosotros &nbsp;|</a>
-            <a class="navegador3 me-3 py-2 text-dark text-decoration-none fw-semibold" href="tipopago.html">Tipo De Pago</a>
+            <a class="navegador3 me-3 py-2 text-dark text-decoration-none fw-semibold" href="views/Nosotros.html">Nosotros &nbsp;|</a>
+            <a class="navegador3 me-3 py-2 text-dark text-decoration-none fw-semibold" href="views/trabajanosotros.html">Trabaja Con Nosotros &nbsp;|</a>
+            <a class="navegador3 me-3 py-2 text-dark text-decoration-none fw-semibold" href="views/tipopago.html">Tipo Pago</a>
           </nav>
         </div>
-      
+        
         <nav class="navbar">
           <div class="container-fluid">
-            <!--LOGO 1-->
-            <img src="img/logoCopy.jpg" alt="logo" class="imagenlogo navbar-brand">
-            
-            <button class="navegador navbar-toggler col-md-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-              <span class="navbar-toggler-icon"></span>
+            <img src="img/logoCopy.jpg" class="imagenlogo navbar-brand" alt="LOGO">
+            <button class="navegador navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+              <span class=" navbar-toggler-icon"></span>
             </button>
-
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
               <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">INICIO</h5>
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">NOSOTROS</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
               </div>
               <div class="offcanvas-body">
-                <!--LINKS-->
                 <ul class="links navbar-nav justify-content-end flex-grow-1 pe-3">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="Nosotros.html">Nosotros</a>
+                      <a class="nav-link active" aria-current="page" href="views/Nosotros.html">Nosotros</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="trabajanosotros.html">Trabaja Con Nosotros</a>
+                      <a class="nav-link active" href="views/trabajanosotros.html">Trabaja Con Nosotros</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="tipopago.html">Tipo Pago</a>
+                      <a class="nav-link active" href="views/tipopago.html">Tipos De Pago</a>
                   </li>
                 </ul>
               </div>
@@ -60,10 +56,10 @@
       
       <!--LOGO 2-->
       <center>
-        <img src="img/logoCopy.jpg" class="imagenlogocentro" alt="LOGO">
+        <img src="img/logoCopy.jpg" class="imagenlogocentro p-5" alt="LOGO">
       </center>
 
-      <div class="p-5 mb-4 bg-light border rounded-3">
+      <div class="mb-4 bg-light border rounded-3 py-5 mx-auto">
         <div class="container-fluid">
           <h1 class="titulo display-5 fw-bold">CopyHouse</h1>
           <!--LOGO 3-->
@@ -74,73 +70,772 @@
       </div>
       
       <div class="row">
-        <div class="col-md-2 flex-md-row mb-4">
-          <div class="h-90 p-4 bg-light border rounded-3">
-            <h2>Change</h2>
-            <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
+        <!-- card 1 -->
+        <div class="col-md-3 flex-md-row mb-4">
+          <div class="h-90 p-4 bg-light border rounded-3 shadow-lg">
+            <div id="anillado" class="carousel carousel-dark slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="img/anillados/anillados.jpg" class="d-block w-100" alt="anillados">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="img/anillados/anillados1.jpg" class="d-block w-100" alt="anillados">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/anillados/anillados2.jpg" class="d-block w-100" alt="anillados">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#anillado" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#anillado" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <h2 class="py-2">Anillados</h2>
+            <p class="todocard">Servicio de anillado, espiralado con materiales de calidad, de gran resistencia y durabilidad para anillados de documentos, libros, cuadernos de trabajos escolares, monografías, etc. <br><br><br><br></p>
+            <!-- Modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#anillados">Ver Mas</button>
+            <div class="modal fade" id="anillados" tabindex="-1" aria-labelledby="anilladosLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="anilladosLabel">Anillados</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modalescard modal-body">
+                    la entrega es casi al instante puedes traer tus copias para anillarlos o puedes traer tus archivos para poder imprimirlos en nuestro local, o puedes enviarnos al correo electrónico <span class="correo">copyhousechincha@gmail.com</span>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
-        <div class="col-md-2 flex-md-row mb-4">
-          <div class="h-90 p-4 bg-light border rounded-3">
-            <h2>Add bordxcers</h2>
-            <p style="text-align: justify;" class="md-5">Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
+        <!-- card 2 -->
+        <div class="col-md-3 flex-md-row mb-4">
+          <div class="h-90 p-4 bg-light border rounded-3 shadow-lg">
+            <!--SLIDER-->
+            <div id="triptico" class="carousel carousel-dark slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="img/triptico/triptico.jpg" class="d-block w-100" alt="tripticos">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="img/triptico/triptico1.jpg" class="d-block w-100" alt="tripticos">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/triptico/triptico2.jpg" class="d-block w-100" alt="tripticos">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#triptico" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#triptico" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <h2 class="py-2">Tripticos</h2>
+            <p class="todocard">Los trípticos, cuyas funciones publicitarias, informativas y artísticas quedan fuera de toda duda, pueden ser diseñados con editores de texto o presentaciones básicos, pero desde CopyHouse, expertos en la elaboración de trípticos te recomendamos el uso de plantillas ya preconfiguradas.</p>
+            <!--modal-->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Ver Mas</button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Tripticos</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modalescard modal-body">
+                    la entrega es casi al instante puedes traer tus copias para anillarlos o puedes traer tus archivos para poder imprimirlos en nuestro local, o puedes enviarnos al correo electrónico <span class="correo">copyhousechincha@gmail.com</span>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
-        <div class="col-md-2 flex-md-row mb-4">
-          <div class="h-90 p-4 bg-light border rounded-3">
-            <h2>agregando letras</h2>
-            <p style="text-align: justify;" class="md-5">Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
+        <!-- card 3 -->
+        <div class="col-md-3 flex-md-row mb-4">
+          <div class="h-90 p-4 bg-light border rounded-3 shadow-lg">
+            <!--SLIDER-->
+            <div id="copicolor" class="carousel carousel-dark slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="img/copiacolor/Copiascolor.jpg" class="d-block w-100" alt="color">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="img/copiacolor/Copiascolor1.jpg" class="d-block w-100" alt="color">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/copiacolor/Copiascolor2.jpg" class="d-block w-100" alt="color">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#copicolor" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#copicolor" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <h2 class="py-2">Copia a Color</h2>
+            <p class="todocard">Realizamos toda clase de fotocopias, copias o fotostática a color de tus documentos, tus libros, separatas, cuadernos, manuales etc. idéntico al del documento. Contamos fotocopias con excelente calidad. <br><br><br></p>
+            <!--modal-->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#copicolores">Ver Mas</button>
+            <div class="modal fade" id="copicolores" tabindex="-1" aria-labelledby="copicoloresLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="copicoloresLabel">Tipos de Copia</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modalescard modal-body">
+                    Siempre ofrecemos las copias o fotocopias con una calidad inigualable. Realizamos copias e impresiones. Copias baratas en Nuestro local y de buena calidad. Se sacan copias a color, fotocopias de calidad. copias más comunes que solicitan nuestros clientes, puedes traer tus archivos para poder imprimirlos en nuestro local, o puedes enviarnos al correo electrónico <span class="correo">copyhousechincha@gmail.com</span>
+                    <br>
+                    <b>Las Copias son:</b>
+                    <ul>
+                      <li>copias a color</li>
+                      <li>copias a color por cantidad</li>
+                      <li>copias de documentos</li>
+                      <li>copia de DNI</li>
+                      <li>copias para colorear</li>
+                      <li>copias tamaño A3</li>
+                      <li>copias tamaño A4</li>
+                      <li>copias de libros</li>
+                    </ul>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
-        <div class="col-md-2 flex-md-row mb-4">
-          <div class="h-90 p-4 bg-light border rounded-3">
-            <h2>Add borxcvderds</h2>
-            <p style="text-align: justify;" class="md-5">Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
+        <!-- card 4 -->
+        <div class="col-md-3 flex-md-row mb-4">
+          <div class="h-90 p-4 bg-light border rounded-3 shadow-lg">
+            <!--SLIDER-->
+            <div id="copinegro" class="carousel carousel-dark slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="img/copiasBN/Copiasnegro.jpg" class="d-block w-100" alt="blanco y negro">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="img/copiasBN/Copiasnegro1.jpg" class="d-block w-100" alt="blanco y negro">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/copiasBN/Copiasnegro2.jpg" class="d-block w-100" alt="blanco y negro">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#copinegro" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#copinegro" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <h2 class="py-4">Copia Blanco/Negro</h2>
+            <p class="todocard">Hacemos toda clase de fotocopias o copias en blanco y negro de tus documentos, tus libros, separatas, cuadernos, manuales etc. Contamos fotocopias con excelente calidad</p>
+            <!--modal-->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#copianegro">Ver Mas</button>
+            <div class="modal fade" id="copianegro" tabindex="-1" aria-labelledby="copianegroLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="copianegroLabel">Tipos de Copia</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modalescard modal-body">
+                    Siempre ofrecemos las copias o fotocopias con una calidad inigualable. Realizamos copias e impresiones. Copias baratas en Nuestro local y de buena calidad. fotocopias de calidad. copias más comunes que solicitan nuestros clientes, puedes traer tus archivos para poder imprimirlos en nuestro local, o puedes enviarnos al correo electrónico <span class="correo">copyhousechincha@gmail.com</span>
+                    <br>
+                    <b>Las Copias son:</b>
+                    <ul>
+                      <li>copias a blanco y negro</li>
+                      <li>copias por cantidad</li>
+                      <li>copias de documentos</li>
+                      <li>copia de DNI</li>
+                      <li>copias para colorear</li>
+                      <li>copias tamaño A3</li>
+                      <li>copias tamaño A4</li>
+                      <li>copias de libros</li>
+                    </ul>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
-        <div class="col-md-2 flex-md-row mb-4">
-          <div class="h-90 p-4 bg-light border rounded-3">
-            <h2>Add bordxcvxers</h2>
-            <p style="text-align: justify;" class="md-5">Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
+        <!-- card 5 -->
+        <div class="col-md-3 flex-md-row mb-4">
+          <div class="h-90 p-4 bg-light border rounded-3 shadow-lg">
+          <!--SLIDER-->
+          <div id="enmicado1" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="img/enmicados/enmicados.jpg" class="d-block w-100" alt="Enmicados">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="img/enmicados/enmicados1.jpg" class="d-block w-100" alt="Enmicados">
+              </div>
+              <div class="carousel-item">
+                <img src="img/enmicados/enmicados2.jpg" class="d-block w-100" alt="Enmicados">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#enmicado1" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#enmicado1" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <h2 class="py-2">Enmicados</h2>
+          <p class="todocard">Tenemos los mejores materiales para enmicar, son micas de buena calidad que durará mucho tiempo, Para mayor informacion puedes escribirnos a nuestro correo <span class="correo">copyhousechincha@gmail.com</span> o nuestro <a href="https://wa.me/51934271785?text=Hola%20Deseo%20Informacion" target="_blank" style="color: black; text-decoration: none;">&nbsp; Whatsapp 934271785</a></p>
+          <!--modal-->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#enmicado">Ver Mas</button>
+          <div class="modal fade" id="enmicado" tabindex="-1" aria-labelledby="enmicadoLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="enmicadoLabel">Enmicados</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  Plastificado de credenciales, tarjetas, documentos, carnet, DNI, A4, A5, A6, hoja de precios, carta de menús, licencias, brevetes, fotochecks, precio de productos. Hacemos servicio de enmicado para colegios, academias, institutos, universidades, en pequeñas o grandes cantidades a buen precio.
+                  <br><br>
+                  <b>Tipos de Enmicados</b>
+                  <ul>
+                    <li>Enmicado A4</li>
+                    <li>Enmicado A5</li>
+                    <li>Enmicado DNI</li>
+                    <li>Enmicado carnet</li>
+                    <li>Enmicado Brevetes</li>
+                    <li>Enmicado documentos</li>
+                    <li>Enmicado de carta de menús</li>
+                    <li>Enmicado de licencias</li>
+                    <li>Enmicado de Fotochecks</li>
+                    <li>Enmicado de Hoja de Precios de Productos</li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
           </div>
         </div>
 
-        <div class="col-md-2 flex-md-row mb-4">
-          <div class="h-90 p-4 bg-light border rounded-3">
-            <h2>Add bordcvxcers</h2>
-            <p style="text-align: justify;" class="md-5">Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
+        <!-- card 6 -->
+        <div class="col-md-3 flex-md-row mb-4">
+          <div class="h-90 p-4 bg-light border rounded-3 shadow-lg">
+            <!--SLIDER-->
+            <div id="hilo" class="carousel carousel-dark slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="img/impresionhilo/Impresionhilo.jpg" class="d-block w-100" alt="hilo">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="img/impresionhilo/Impresionhilo1.jpg" class="d-block w-100" alt="hilo">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/impresionhilo/Impresionhilo2.jpg" class="d-block w-100" alt="hilo">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#hilo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#hilo" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <h2 >Impresion en Papel Hilo</h2>
+            <p class="todocard">El papel hilo es especial para impresiones de diplomas certificados, tarjetas de invitacion para colegios y superior impresión a buena calidad. <br><br></p>
+            <!--modal-->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Impresionhilo">Ver Mas</button>
+            <div class="modal fade" id="Impresionhilo" tabindex="-1" aria-labelledby="ImpresionhiloLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="ImpresionhiloLabel">Impresion en Papel hilo</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    Se hacen impresiones de diplomas en tamaño A4, para colegios, institutos, academias y universidades puedes enviarlos al correo <span class="correo">copyhousechincha@gmail.com</span> o nuestro <a href="https://wa.me/51934271785?text=Hola%20Deseo%20Informacion" target="_blank" style="color: black; text-decoration: none;">&nbsp; Whatsapp 934271785</a>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="row">
-        <div class="col-md-2 flex-md-row mb-4">
-          <div class="h-90 p-4 bg-light border rounded-3">
-            <h2>Change</h2>
-            <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
+        <!-- card 7 -->
+        <div class="col-md-3 flex-md-row mb-4">
+          <div class="h-90 p-4 bg-light border rounded-3 shadow-lg">
+            <!--SLIDER-->
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="..." class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="..." class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="..." class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <h2 class="py-2">titulo</h2>
+            <p class="todocard">info</p>
+            <!--modal-->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Ver Mas</button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    correo <span class="correo">copyhousechincha@gmail.com</span>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card 8 -->
+        <div class="col-md-3 flex-md-row mb-4">
+          <div class="h-90 p-4 bg-light border rounded-3 shadow-lg">
+            <!--SLIDER-->
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="..." class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="..." class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="..." class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <h2 class="py-2">titulo</h2>
+            <p class="todocard">info</p>
+            <!--modal-->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Ver Mas</button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    correo <span class="correo">copyhousechincha@gmail.com</span>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card 9 -->
+        <div class="col-md-3 flex-md-row mb-4">
+          <div class="h-90 p-4 bg-light border rounded-3 shadow-lg">
+            <!--SLIDER-->
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="..." class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="..." class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="..." class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <h2 class="py-2">titulo</h2>
+            <p class="todocard">info</p>
+            <!--modal-->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Ver Mas</button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    correo <span class="correo">copyhousechincha@gmail.com</span>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card 10 -->
+        <div class="col-md-3 flex-md-row mb-4">
+          <div class="h-90 p-4 bg-light border rounded-3 shadow-lg">
+            <!--SLIDER-->
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="..." class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="..." class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="..." class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <h2 class="py-2">titulo</h2>
+            <p class="todocard">info</p>
+            <!--modal-->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Ver Mas</button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    correo <span class="correo">copyhousechincha@gmail.com</span>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card 11 -->
+        <div class="col-md-3 flex-md-row mb-4">
+          <div class="h-90 p-4 bg-light border rounded-3 shadow-lg">
+            <!--SLIDER-->
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="..." class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="..." class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="..." class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <h2 class="py-2">titulo</h2>
+            <p class="todocard">info</p>
+            <!--modal-->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Ver Mas</button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    correo <span class="correo">copyhousechincha@gmail.com</span>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card 12 -->
+        <div class="col-md-3 flex-md-row mb-4">
+          <div class="h-90 p-4 bg-light border rounded-3 shadow-lg">
+            <!--SLIDER-->
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="..." class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="..." class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="..." class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <h2 class="py-2">titulo</h2>
+            <p class="todocard">info</p>
+            <!--modal-->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Ver Mas</button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    correo <span class="correo">copyhousechincha@gmail.com</span>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card 13 -->
+        <div class="col-md-3 flex-md-row mb-4">
+          <div class="h-90 p-4 bg-light border rounded-3 shadow-lg">
+            <!--SLIDER-->
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="..." class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="..." class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="..." class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <h2 class="py-2">titulo</h2>
+            <p class="todocard">info</p>
+            <!--modal-->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Ver Mas</button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    correo <span class="correo">copyhousechincha@gmail.com</span>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card 14 -->
+        <div class="col-md-3 flex-md-row mb-4">
+          <div class="h-90 p-4 bg-light border rounded-3 shadow-lg">
+            <!--SLIDER-->
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="..." class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="..." class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="..." class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <h2 class="py-2">titulo</h2>
+            <p class="todocard">info</p>
+            <!--modal-->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Ver Mas</button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    correo <span class="correo">copyhousechincha@gmail.com</span>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card 15 -->
+        <div class="col-md-3 flex-md-row mb-4">
+          <div class="h-90 p-4 bg-light border rounded-3 shadow-lg">
+            <!--SLIDER-->
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="..." class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="..." class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="..." class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <h2 class="py-2">titulo</h2>
+            <p class="todocard">info</p>
+            <!--modal-->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Ver Mas</button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    correo <span class="correo">copyhousechincha@gmail.com</span>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <!--Fin Servicios-->
 
-      <footer class=" my-4">
+      <footer class="my-4">
         <ul class="nav justify-content-center">
           <li class="redsocial nav-item"><a href="#" class="nav-link px-2 " style="color: black; text-decoration: none;">Correo Electronico</a></li>
           <li class="redsocial nav-item"><a href="#" class="nav-link px-2 " style="color: black; text-decoration: none;">Facebook</a></li>
           <li class="redsocial nav-item"><a href="https://wa.me/51934271785?text=Hola%20Deseo%20Informacion" target="_blank" class="nav-link px-2 " style="color: black; text-decoration: none;">Whatsapp</a></li>
           <a class="wsp ms-5" href="https://wa.me/51934271785?text=Hola%20Deseo%20Informacion%20del%20Software%20" target="_blank" title="Envia Un SMS"><i class="bi bi-whatsapp"></i></a>
         </ul>
-        <div class="copyrit border-top">
+        <div class="foter border-top">
           <p>&nbsp; &copy; Copyright 2022, CopyHouse <br> Todos Los Derechos Reservados</p>
         </div>
       </footer>
       <!--Fin footer-->
     </div>
+
+    <!-- JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-    
 </body>
 </html>
