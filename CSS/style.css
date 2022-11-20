@@ -110,23 +110,13 @@
 
 /*responsive*/
 @media screen and (max-width:800px) {
-    .menu-navegacion{
-        width: 50vw;
-    }
-
-	div .micontenedor{
-		width:80% 24;
-		height:100%;
-		left:-100%;
-		margin: 0 auto;
-	}
 
     /*ocultamos el btn de de la clase wsp*/
 	.wsp {
 		display: none;
 	}
     
-    .foter{
+    .nav .foter{
         text-align: center;
         font-family: 'Sono', sans-serif;
     }

@@ -1,0 +1,50 @@
+.micontenedor{
+    width: 94%;
+    margin: 0 auto;
+}
+
+.logonav{
+    width: 150px;
+    display: none;
+}
+
+.navegadoricono{
+    display: none;
+}
+
+.brindamos{
+    color: #00A0E3;
+}
+
+.navegador3{
+    display: inline-block;
+}
+
+.foter{
+    text-align: center;
+    font-family: 'Sono', sans-serif;
+}
+
+/*responsivo*/
+@media screen and (max-width:800px) {
+
+    .navegadoricono{
+        display: inline-block;
+    }
+
+    .logonav{
+        display: inline-block;
+    }
+
+    .links{
+        text-align: center;
+    }
+
+    .foter{
+        text-align: center;
+        font-family: 'Sono', sans-serif;
+    }
+    .acord{
+        width: 380%;
+    }
+}
