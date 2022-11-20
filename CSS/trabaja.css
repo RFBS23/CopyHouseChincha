@@ -25,6 +25,10 @@
     font-family: 'Sono', sans-serif;
 }
 
+.collap1{
+    display: none;
+}
+
 /*responsivo*/
 @media screen and (max-width:800px) {
 
@@ -45,6 +49,14 @@
         font-family: 'Sono', sans-serif;
     }
     .acord{
-        width: 380%;
+        display: none;
+    }
+
+    .acordi1{
+        display: none;
+    }
+
+    .collap1{
+        display: inline-block;
     }
 }
