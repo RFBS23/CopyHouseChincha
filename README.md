@@ -4,6 +4,6 @@ Pagina Oficial de CopyHouse.
 
 Puedes ver este proyecto en el siguiente URL: 
 
-https://fabriziobarriossaavedra.github.io/CopyHouseChincha/
+https://rfbs23.github.io/CopyHouseChincha/
 
 ¡Disfrutar!
